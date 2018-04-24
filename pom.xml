@@ -216,7 +216,7 @@
         </configuration>
       </plugin>
     </plugins>
-  </reporting>
+  </reporting>  
 
   <!-- Apache 2 license -->
   <licenses>
@@ -225,5 +225,13 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
   </licenses>
+  
+  <distributionManagement>
+    <repository>
+      <id>nexus-spring-petclinic</id>
+      <name>Spring-Petclinic</name>
+      <url>scp://127.0.0.1:8082/nexus</url>
+    </repository>
+  </distributionManagement>
 
 </project>
