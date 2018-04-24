@@ -228,7 +228,7 @@
   
   <distributionManagement>
     <repository>
-      <id>nexus-spring-petclinic</id>
+      <id>nexus</id>
       <name>Spring-Petclinic</name>
       <url>scp://127.0.0.1:8082/nexus</url>
     </repository>
