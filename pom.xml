@@ -229,8 +229,8 @@
   <distributionManagement>
     <repository>
       <id>nexus</id>
-      <name>Spring-Petclinic</name>
-      <url>ftp://192.168.33.10:8082/nexus</url>
+      <name>petclinic</name>
+      <url>file://192.168.33.10:8082/nexus</url>
     </repository>
   </distributionManagement>
 
