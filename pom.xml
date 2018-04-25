@@ -102,11 +102,16 @@
       <artifactId>jquery</artifactId>
       <version>${webjars-jquery.version}</version>	  
     </dependency>
+    <!-- <dependency> -->
+      <!-- <groupId>org.webjars</groupId> -->
+      <!-- <artifactId>jquery-ui</artifactId> -->
+      <!-- <version>${webjars-jquery-ui.version}</version> -->
+    <!-- </dependency> -->
     <dependency>
-      <groupId>org.webjars</groupId>
-      <artifactId>jquery-ui</artifactId>
-      <version>${webjars-jquery-ui.version}</version>
-    </dependency>
+      <groupId>aperrin</groupId>
+      <artifactId>jquery</artifactId>
+      <version>3.3.1-2-SNAPSHOT</version>
+    </dependency>	
     <dependency>
       <groupId>org.webjars</groupId>
       <artifactId>bootstrap</artifactId>
