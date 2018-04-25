@@ -230,7 +230,7 @@
     <repository>
       <id>nexus</id>
       <name>petclinic</name>
-      <url>http://192.168.33.10:8082/nexus</url>
+      <url>http://192.168.33.10:8082/nexus/content/repositories/petclinic/</url>
     </repository>
   </distributionManagement>
 
