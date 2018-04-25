@@ -36,7 +36,7 @@
       <snapshots>
   	    <enabled>true</enabled>
   	  </snapshots>
-      <id>nexus<id/>
+      <id>nexus</id>
       <url>http://192.168.33.10:8082/nexus/</url>
     </repository>
   </repositories>
