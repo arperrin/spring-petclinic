@@ -26,6 +26,7 @@
     <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
     <webjars-jquery.version>2.2.4</webjars-jquery.version>
     <wro4j.version>1.8.0</wro4j.version>
+	<nexus-jquery.version>3.3.1-2-SNAPSHOT</nexus-jquery-ui.version>
 
     <cobertura.version>2.7</cobertura.version>
 
@@ -38,7 +39,7 @@
   	  </snapshots>
       <id>nexus</id>
       <!-- <url>http://192.168.33.10:8082/nexus/content/repositories/jqueryui/aperrin/jquery/3.3.1.2-SNAPSHOT</url> -->
-	  <url>http://192.168.33.10:8082/nexus/content/repositories/jqueryui/aperrin/jquery/3.3.1-2-SNAPSHOT/</url>
+	  <url>http://192.168.33.10:8082/nexus/content/repositories/jquery/aperrin/jquery/${nexus-jquery.version}/</url>
     </repository>
   </repositories>
 
@@ -97,21 +98,21 @@
       <groupId>org.webjars</groupId>
       <artifactId>webjars-locator-core</artifactId>
     </dependency>
-    <dependency>
-      <groupId>aperrin</groupId>
-      <artifactId>jquery</artifactId>
-      <version>${webjars-jquery.version}</version>	  
-    </dependency>
     <!-- <dependency> -->
       <!-- <groupId>org.webjars</groupId> -->
-      <!-- <artifactId>jquery-ui</artifactId> -->
-      <!-- <version>${webjars-jquery-ui.version}</version> -->
+      <!-- <artifactId>jquery</artifactId> -->
+      <!-- <version>${webjars-jquery.version}</version>	   -->
     <!-- </dependency> -->
     <dependency>
       <groupId>aperrin</groupId>
       <artifactId>jquery</artifactId>
-      <version>3.3.1-2-SNAPSHOT</version>
+      <version>${nexus-jquery.version}</version>
     </dependency>	
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery-ui</artifactId>
+      <version>${webjars-jquery-ui.version}</version>
+    </dependency>
     <dependency>
       <groupId>org.webjars</groupId>
       <artifactId>bootstrap</artifactId>
