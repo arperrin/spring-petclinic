@@ -31,6 +31,16 @@
 
   </properties>
 
+  <repositories>
+    <snapshots>
+	  <enabled>true</enabled>
+	</snapshots>
+    <repository>
+      <id>nexus<id/>
+      <url>http://192.168.33.10:8082/nexus/</url>
+    </repository>
+  </repositories>
+
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
@@ -87,7 +97,7 @@
       <artifactId>webjars-locator-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.webjars</groupId>
+      <groupId>aperrin</groupId>
       <artifactId>jquery</artifactId>
       <version>${webjars-jquery.version}</version>
     </dependency>
