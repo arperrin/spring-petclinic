@@ -37,7 +37,8 @@
   	    <enabled>true</enabled>
   	  </snapshots>
       <id>nexus</id>
-      <url>http://192.168.33.10:8082/nexus/content/repositories/jqueryui/aperrin/jquery/3.3.1.2-SNAPSHOT</url>
+      <!-- <url>http://192.168.33.10:8082/nexus/content/repositories/jqueryui/aperrin/jquery/3.3.1.2-SNAPSHOT</url> -->
+	  <url>http://192.168.33.10:8082/nexus/content/repositories/jqueryui/aperrin/jquery/3.3.1-2-SNAPSHOT/</url>
     </repository>
   </repositories>
 
@@ -99,7 +100,7 @@
     <dependency>
       <groupId>aperrin</groupId>
       <artifactId>jquery</artifactId>
-      <version>${webjars-jquery.version}</version>
+      <version>${webjars-jquery.version}</version>	  
     </dependency>
     <dependency>
       <groupId>org.webjars</groupId>
