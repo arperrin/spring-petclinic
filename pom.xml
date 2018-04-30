@@ -38,8 +38,7 @@
   	    <enabled>true</enabled>
   	  </snapshots>
       <id>nexus</id>
-      <!-- <url>http://192.168.33.10:8082/nexus/content/repositories/jqueryui/aperrin/jquery/3.3.1.2-SNAPSHOT</url> -->
-	  <url>http://192.168.33.10:8082/nexus/content/repositories/jquery/aperrin/jquery/${nexus-jquery.version}/</url>
+	  <url>http://192.168.33.10:8081/nexus/content/repositories/jquery/aperrin/jquery/${nexus-jquery.version}/</url>
     </repository>
   </repositories>
 
@@ -247,7 +246,7 @@
     <repository>
       <id>nexus</id>
       <name>petclinic</name>
-      <url>http://192.168.33.10:8082/nexus/content/repositories/petclinic/</url>
+      <url>http://192.168.33.10:8081/nexus/content/repositories/petclinic/</url>
     </repository>
   </distributionManagement>
 
