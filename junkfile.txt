@@ -1,8 +1,3 @@
 This is a junk file to simulate code changes
-Another line
-Another line
-Yet another line
-Yet another line
-Another line
-More stuff
-triggering a build
+This is a second change
+Third change
