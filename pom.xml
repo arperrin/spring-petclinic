@@ -242,12 +242,10 @@
     </license>
   </licenses>
   
-  <distributionManagement>
-    <repository>
-      <id>nexus</id>
-      <name>petclinic</name>
-      <url>http://192.168.33.10:8081/nexus/content/repositories/petclinic/</url>
-    </repository>
-  </distributionManagement>
-
+<distributionManagement>
+  <snapshotRepository>
+    <id>petclinic</id>
+    <url>http://192.168.33.10:8081/nexus/content/repositories/petclinic</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
